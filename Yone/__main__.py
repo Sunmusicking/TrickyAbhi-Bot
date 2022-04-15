@@ -164,22 +164,22 @@ def start(update: Update, context: CallbackContext):
                 reply_markup=InlineKeyboardMarkup([
     [
         InlineKeyboardButton(
-            text="🧚‍♀ Add me to your chat 🧚‍♀", url=f"https://t.me/{context.bot.username}?startgroup=true"),
+            text="👸 ADD ME TO A CHAT ", url=f"https://t.me/{context.bot.username}?startgroup=true"),
     ],
     [
-        InlineKeyboardButton(text="Admin", callback_data="admin_back"),
+        InlineKeyboardButton(text="👮‍♀ ADMIN Tools", callback_data="admin_back"),
         InlineKeyboardButton(
-            text="Users", callback_data="user_back"
+            text="👩‍💻 COMMEND Users", callback_data="user_back"
         ),
     ],
     [
-        InlineKeyboardButton(text="Tools", callback_data="tools_back"),
+        InlineKeyboardButton(text="💃 EXTRA Tools", callback_data="tools_back"),
         InlineKeyboardButton(
             text="Bot Info", callback_data="yone_"
         ),
     ],
     [
-        InlineKeyboardButton(text="Helps & Commands❔", callback_data="help_back"),
+        InlineKeyboardButton(text="📚 HELPS & COMMENDS", callback_data="help_back"),
     ],
 ]),
                 parse_mode=ParseMode.MARKDOWN,
@@ -199,11 +199,11 @@ def start(update: Update, context: CallbackContext):
             keyboard = InlineKeyboardMarkup([
                 [
                     InlineKeyboardButton(
-                        text="SUPPORT", 
-                        url=f"https://t.me/{SUPPORT_CHAT}"),
+                        text="⭕ SUPPORT", 
+                        url=f"https://t.me/TAMIL_CHATBOX"),
                     InlineKeyboardButton(
-                        text="DEVLOPER", 
-                        url=f"https://t.me/{OWNER_USERNAME}")
+                        text="👑 DEVLOPER", 
+                        url=f"https://t.me/iMzaynking")
                     
                 ],
                 
@@ -240,11 +240,11 @@ def yone_about_callback(update: Update, context: CallbackContext):
             reply_markup=InlineKeyboardMarkup(
                 [
                    [
-                     InlineKeyboardButton(text="Support", url="https://t.me/TrickyAbhii_Op"),
-                     InlineKeyboardButton(text="News", url="https://t.me/Techno_Trickop"),
+                     InlineKeyboardButton(text="⭕ SUPPORT", url="https://t.me/tamil_chatbox"),
+                     InlineKeyboardButton(text="👸 QUEEN News", url="https://t.me/king_botz"),
                    ],
                    [
-                    InlineKeyboardButton(text="Back", callback_data="yone_back")
+                    InlineKeyboardButton(text="🔙 BACK", callback_data="yone_back")
                    ]
                 ]
             ),
@@ -256,22 +256,22 @@ def yone_about_callback(update: Update, context: CallbackContext):
                 reply_markup=InlineKeyboardMarkup([
     [
         InlineKeyboardButton(
-            text="➕️ Add me to your chat ➕️", url=f"https://t.me/{context.bot.username}?startgroup=true"),
+            text="👸 ADD ME TO A CHAT", url=f"https://t.me/{context.bot.username}?startgroup=true"),
     ],
     [
-        InlineKeyboardButton(text="Admin", callback_data="admin_back"),
+        InlineKeyboardButton(text="👮‍♀ ADMIN Tools", callback_data="admin_back"),
         InlineKeyboardButton(
-            text="Users", callback_data="user_back"
+            text="👩‍💻 COMMEND Users", callback_data="user_back"
         ),
     ],
     [
-        InlineKeyboardButton(text="Tools", callback_data="tools_back"),
+        InlineKeyboardButton(text="💃 EXTRA Tools", callback_data="tools_back"),
         InlineKeyboardButton(
-            text="Bot Info", callback_data="yone_"
+            text="👸 QUEEN Info", callback_data="yone_"
         ),
     ],
     [
-        InlineKeyboardButton(text="Helps & Commands❔", callback_data="help_back"),
+        InlineKeyboardButton(text="📚 HELPS & COMMENDS", callback_data="help_back"),
     ],
 ]),
                 parse_mode=ParseMode.MARKDOWN,
