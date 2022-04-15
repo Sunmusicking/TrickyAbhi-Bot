@@ -175,7 +175,7 @@ def start(update: Update, context: CallbackContext):
     [
         InlineKeyboardButton(text="💃 EXTRA Tools", callback_data="tools_back"),
         InlineKeyboardButton(
-            text="Bot Info", callback_data="yone_"
+            text="👸 QUEEN Info", callback_data="yone_"
         ),
     ],
     [
