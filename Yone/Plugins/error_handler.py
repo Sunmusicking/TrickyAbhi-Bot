@@ -106,7 +106,7 @@ def error_callback(update: Update, context: CallbackContext):
         OWNER_ID,
             text=f"#{context.error.identifier}\n<b>An unknown error occured:</b>\n<code>{e}</code>",
             reply_markup=InlineKeyboardMarkup(
-                [[InlineKeyboardButton("SpaceBin", url=url)]],
+                [[InlineKeyboardButton("👸 QUEEN SpaceBin", url=url)]],
             ),
         parse_mode="html",
     )
