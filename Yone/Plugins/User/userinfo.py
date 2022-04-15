@@ -550,20 +550,20 @@ __help__ = """
  ‣ `/setme <text>`*:* will set your info
  ‣ `/me`*:* will get your or another user's info.
 Examples:
- `/setme I am a wolf.`
+ `/setme I am a KING.`
  `/me @username(defaults to yours if no user specified)`
 *Information others add on you:* 
  ‣ `/bio`*:* will get your or another user's bio. This cannot be set by yourself.
 ‣ `/setbio <text>`*:* while replying, will save another user's bio 
 Examples:
  `/bio @username(defaults to yours if not specified).`
- `/setbio This user is a wolf` (reply to the user)
+ `/setbio This user is a KING` (reply to the user)
 *Overall Information about you:*
  ‣ `/info`*:* get information about a user. 
  ‣ `/ginfo`*:* get information about a Group. 
  
 *What is that health thingy?*
- Come and see [HP System explained](https://t.me/Yone_Updates)
+ Come and see [QUEEN UPDATE](https://t.me/KING_BOTz)
 """
 __mod_name__ = "Infos"
 __command_list__ = ["setbio", "bio", "setme", "me", "info"]
