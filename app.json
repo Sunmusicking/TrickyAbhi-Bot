@@ -1,5 +1,5 @@
 {
-    "name": "TrickyAbhi-Bot",
+    "name": "imqueenrobot",
     "description": "Telegram group management bot.",
     "keywords": [
        "telegram",
@@ -8,7 +8,7 @@
        "manager",
        "yone"
     ],   
- "repository": "https://github.com/SJMxADITI/TrickyAbhi-Bot",
+ "repository": "https://github.com/Sunmusicking/TrickyAbhi-Bot",
  "addons": [
     {
        "options": {
@@ -69,7 +69,7 @@
     "PHOTO": {
        "description": "Your Telegram Bot Image (Add Link Only).",
        "required": true,
-       "value": "https://telegra.ph/file/b9f38530315136d4bbe7c.jpg"
+       "value": "https://telegra.ph/file/ae0d8e90a5ddae053ed1d.jpg"
     },      
     "DEV_USERS": {
        "description": "ID of users who are Devs of your bot (can use /py etc.). If you are a noob and would come and bother Masha support then keep the current ID's here at they are and add yours.",
